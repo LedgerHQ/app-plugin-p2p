@@ -13,7 +13,7 @@ APPNAME = "P2P.org"
 # Application version
 APPVERSION_M = 1
 APPVERSION_N = 0
-APPVERSION_P = 1
+APPVERSION_P = 2
 APPVERSION = "$(APPVERSION_M).$(APPVERSION_N).$(APPVERSION_P)"
 
 # Initialize plugin SDK submodule if needed

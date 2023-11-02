@@ -31,7 +31,7 @@ APP_SOURCE_PATH += src $(ETHEREUM_PLUGIN_SDK)
 
 # Application icons following guidelines:
 # https://developers.ledger.com/docs/embedded-app/design-requirements/#device-icon
-ICON_ID = $(shell echo -n "$(APPNAME)" | tr " " "_" | tr "-" "_" | tr "[:upper:]" "[:lower:]")
+ICON_ID = "p2porg"
 ICON_NANOS = icons/nanos_app_$(ICON_ID).gif
 ICON_NANOX = icons/nanox_app_$(ICON_ID).gif
 ICON_NANOSP = $(ICON_NANOX)

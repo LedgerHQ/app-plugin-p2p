@@ -8,7 +8,7 @@ include $(BOLOS_SDK)/Makefile.defines
 #        Mandatory configuration       #
 ########################################
 # Application name
-APPNAME = "p2p-staking"
+APPNAME = "P2P.org"
 
 # Application version
 APPVERSION_M = 1

@@ -11,7 +11,7 @@ import {
 import { ethers } from "ethers";
 
 const contractAddr = "0x4e1224f513048e18e7a1883985b45dc0fe1d917e";
-const pluginName = "p2p-staking";
+const pluginName = "P2P.org";
 const testNetwork = "ethereum";
 const abi_path =
   `../networks/${testNetwork}/${pluginName}/abis/` + contractAddr + ".json";

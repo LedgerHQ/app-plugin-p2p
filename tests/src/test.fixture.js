@@ -106,7 +106,7 @@ function zemu(device, func) {
     let elf_path;
     let lib_elf;
     elf_path = device.eth_path;
-    lib_elf = { "p2p-staking": device.path };
+    lib_elf = { "P2P.org": device.path };
 
     const sim = new Zemu(elf_path, lib_elf);
     try {

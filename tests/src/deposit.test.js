@@ -11,10 +11,10 @@ import {
 import { ethers } from "ethers";
 
 const contractAddr = "0x8e76a33f1aff7eb15de832810506814af4789536";
-const pluginName = "p2p-staking";
+const pluginFolder = "p2porg";
 const testNetwork = "ethereum";
 const abi_path =
-  `../networks/${testNetwork}/${pluginName}/abis/` + contractAddr + ".json";
+  `../networks/${testNetwork}/${pluginFolder}/abis/` + contractAddr + ".json";
 const abi = require(abi_path);
 
 MODELS.forEach((model) => {

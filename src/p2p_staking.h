@@ -8,7 +8,7 @@
 #define NUM_SELECTORS 2
 
 // Name of the plugin.
-#define PLUGIN_NAME "p2p-staking"
+#define PLUGIN_NAME "P2P.org"
 
 // Enumeration of the different selectors possible.
 // Should follow the exact same order as the array declared in main.c

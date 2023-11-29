@@ -8,12 +8,12 @@ include $(BOLOS_SDK)/Makefile.defines
 #        Mandatory configuration       #
 ########################################
 # Application name
-APPNAME = "p2p-staking"
+APPNAME = "P2P.org"
 
 # Application version
 APPVERSION_M = 1
 APPVERSION_N = 0
-APPVERSION_P = 1
+APPVERSION_P = 2
 APPVERSION = "$(APPVERSION_M).$(APPVERSION_N).$(APPVERSION_P)"
 
 # Initialize plugin SDK submodule if needed
@@ -31,7 +31,7 @@ APP_SOURCE_PATH += src $(ETHEREUM_PLUGIN_SDK)
 
 # Application icons following guidelines:
 # https://developers.ledger.com/docs/embedded-app/design-requirements/#device-icon
-ICON_ID = $(shell echo -n "$(APPNAME)" | tr " " "_" | tr "-" "_" | tr "[:upper:]" "[:lower:]")
+ICON_ID = "p2porg"
 ICON_NANOS = icons/nanos_app_$(ICON_ID).gif
 ICON_NANOX = icons/nanox_app_$(ICON_ID).gif
 ICON_NANOSP = $(ICON_NANOX)
@@ -64,7 +64,7 @@ PATH_APP_LOAD_PARAMS = "44'/60'"   # purpose=coin(44) / coin_type=Testnet(1)
 #   * It must at least contains one value.
 #   * Values can be the app ticker or anything else but should be unique.
 VARIANT_PARAM = COIN
-VARIANT_VALUES = pbol
+VARIANT_VALUES = p2p
 
 # Enabling DEBUG flag will enable PRINTF and disable optimizations
 #DEBUG = 1

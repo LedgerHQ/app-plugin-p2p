@@ -16,7 +16,7 @@
 #*******************************************************************************
 
 APPNAME = "P2P.org"
-NORMAL_NAME = "p2porg"
+NORMAL_NAME = "p2p"
 
 # Application version
 APPVERSION_M = 1

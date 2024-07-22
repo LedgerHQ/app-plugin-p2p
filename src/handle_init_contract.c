@@ -1,5 +1,6 @@
 #include "p2p_staking.h"
-#include "utils.h"
+#include "common_utils.h"
+#include "plugin_utils.h"
 
 // Called once to init.
 void handle_init_contract(ethPluginInitContract_t *msg) {

@@ -20,7 +20,7 @@ NORMAL_NAME = "p2p"
 
 # Application version
 APPVERSION_M = 1
-APPVERSION_N = 0
-APPVERSION_P = 2
+APPVERSION_N = 1
+APPVERSION_P = 0
 
 include ethereum-plugin-sdk/standard_plugin.mk

@@ -12,7 +12,7 @@
       }
     },
     {
-      "address": "0x23BE839a14cEc3D6D716D904f09368Bbf9c750eb",
+      "address": "0x23be839a14cec3d6d716d904f09368bbf9c750eb",
       "contractName": "P2P.org",
       "selectors": {
         "0x2c4b04fa": {

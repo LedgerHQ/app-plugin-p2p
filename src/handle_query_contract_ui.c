@@ -65,7 +65,7 @@ void handle_query_contract_ui(ethQueryContractUI_t *msg) {
     memset(msg->msg, 0, msg->msgLength);
 
     switch (context->selectorIndex) {
-        case DO_DEPOSIT:
+        case DO_DIRECT_DEPOSIT:
             ret = handle_deposit_ui(msg, context);
             break;
         case DO_WITHDRAW:

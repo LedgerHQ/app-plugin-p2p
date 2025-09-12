@@ -11,7 +11,7 @@ void handle_query_contract_id(ethQueryContractID_t *msg) {
     // For the first screen, display the plugin name.
     strlcpy(msg->name, "p2p.org", msg->nameLength);
     switch (context->selectorIndex) {
-        case DO_DEPOSIT:
+        case DO_DIRECT_DEPOSIT:
             strlcpy(msg->version, "Stake", msg->versionLength);
             break;
         case DO_WITHDRAW:

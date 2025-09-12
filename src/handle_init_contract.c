@@ -38,7 +38,7 @@ void handle_init_contract(ethPluginInitContract_t *msg) {
 
     // Set `next_param` to be the first field we expect to parse.
     switch (context->selectorIndex) {
-        case DO_DEPOSIT:
+        case DO_DIRECT_DEPOSIT:
             break;
         case DO_WITHDRAW:
             context->next_param = ASSOCIATED_DATA;

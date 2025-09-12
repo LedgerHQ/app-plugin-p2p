@@ -8,7 +8,7 @@ void handle_finalize(ethPluginFinalize_t *msg) {
     msg->result = ETH_PLUGIN_RESULT_OK;
 
     switch (context->selectorIndex) {
-        case DO_DEPOSIT:
+        case DO_DIRECT_DEPOSIT:
             msg->numScreens = 1;
             break;
         case DO_WITHDRAW:

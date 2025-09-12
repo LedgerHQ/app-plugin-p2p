@@ -25,7 +25,7 @@ void handle_provide_parameter(ethPluginProvideParameter_t *msg) {
     msg->result = ETH_PLUGIN_RESULT_OK;
 
     switch (context->selectorIndex) {
-        case DO_DEPOSIT:
+        case DO_DIRECT_DEPOSIT:
             handle_deposit_params(msg, context);
             break;
         case DO_WITHDRAW:

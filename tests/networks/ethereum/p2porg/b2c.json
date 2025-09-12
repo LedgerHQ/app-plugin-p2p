@@ -12,6 +12,16 @@
       }
     },
     {
+      "address": "0x23BE839a14cEc3D6D716D904f09368Bbf9c750eb",
+      "contractName": "P2P.org",
+      "selectors": {
+        "0x2c4b04fa": {
+          "method": "addEth",
+          "plugin": "P2P.org"
+        }
+      }
+    },
+    {
       "address": "0x4e1224f513048e18e7a1883985b45dc0fe1d917e",
       "contractName": "P2P.org",
       "selectors": {

@@ -5,8 +5,8 @@ static bool handle_deposit_ui_preview(ethQueryContractUI_t *msg, context_t *cont
     (void) context;
     strlcpy(msg->title, "Stake", msg->titleLength);
 
-    const uint8_t *eth_amount = msg->pluginSharedRO->txContent->value.value;
-    uint8_t eth_amount_size = msg->pluginSharedRO->txContent->value.length;
+    const uint8_t *eth_amount = msg->txContent->value.value;
+    uint8_t eth_amount_size = msg->txContent->value.length;
 
     return amountToString(eth_amount,
                           eth_amount_size,
